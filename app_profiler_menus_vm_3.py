@@ -276,6 +276,11 @@ Its core focus areas include:
 
 Overall, the branch enables more **coordinated**, **strategic**, and **impact‑oriented** urban planning through targeted interventions and robust spatial analysis.
 """)
+    # Optional local logo (only if present) — point to your new Images folder by default
+     # ---- Logo (Direct Image URL) ----
+    logo_url = "https://github.com/vernonmoon1331-oss/css_streamlit_2026_assignment/blob/main/CCT%20Logo.jpg?raw=true"
+    st.markdown("### Logo")
+    st.image(logo_url, caption="Spatial Targeting & Mechanisms", use_container_width=False)
 
 elif menu == "Publications":
     st.title("Publications")
@@ -501,5 +506,6 @@ elif menu == "Contact Information":
 
     st.markdown("### Logo")
     st.image(logo_url, caption="Spatial Targeting & Mechanisms", use_container_width=False)
+
 
 
