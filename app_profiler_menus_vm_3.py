@@ -502,10 +502,11 @@ elif menu == "Contact Information":
 
     # Optional local logo (only if present) — point to your new Images folder by default
      # ---- Logo (Direct Image URL) ----
-    logo_url = "https://github.com/vernonmoon1331-oss/css_streamlit_2026_assignment/blob/main/ST%26M%20Logo.jpeg"
+    logo_url = "https://github.com/vernonmoon1331-oss/css_streamlit_2026_assignment/blob/main/ST&M%20Logo.jpeg?raw=true"
 
     st.markdown("### Logo")
     st.image(logo_url, caption="Spatial Targeting & Mechanisms", use_container_width=False)
+
 
 
 
