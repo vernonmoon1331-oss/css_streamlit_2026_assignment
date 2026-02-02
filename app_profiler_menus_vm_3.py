@@ -280,7 +280,7 @@ Overall, the branch enables more **coordinated**, **strategic**, and **impact‑
      # ---- Logo (Direct Image URL) ----
     logo_url = "https://github.com/vernonmoon1331-oss/css_streamlit_2026_assignment/blob/main/CCT%20Logo.jpg?raw=true"
     st.markdown("### Logo")
-    st.image(logo_url, caption="Spatial Targeting & Mechanisms", use_container_width=False)
+    st.image(logo_url, caption="City of Cape Town", use_container_width=False)
 
 elif menu == "Publications":
     st.title("Publications")
@@ -506,6 +506,7 @@ elif menu == "Contact Information":
 
     st.markdown("### Logo")
     st.image(logo_url, caption="Spatial Targeting & Mechanisms", use_container_width=False)
+
 
 
 
