@@ -278,8 +278,8 @@ Overall, the branch enables more **coordinated**, **strategic**, and **impact‑
 """)
     # Optional local logo (only if present) — point to your new Images folder by default
      # ---- Logo (Direct Image URL) ----
-        logo_url = "https://github.com/vernonmoon1331-oss/css_streamlit_2026_assignment/blob/main/ST&M%20Logo.jpeg?raw=true"
-        st.markdown("### Logo")
+    logo_url = "https://github.com/vernonmoon1331-oss/css_streamlit_2026_assignment/blob/main/ST&M%20Logo.jpeg?raw=true"
+    st.markdown("### Logo")
     st.image(logo_url, caption="Spatial Targeting and Mechanisms Unit", use_container_width=False)
 
 elif menu == "Publications":
@@ -501,15 +501,9 @@ elif menu == "Contact Information":
     st.write(f"Telephone: {telephone}")
 
     # Optional local logo (only if present) — point to your new Images folder by default
-     # ---- Logo (Direct Image URL) ----
+    # ---- Logo (Direct Image URL) ----
     logo_url = "https://github.com/vernonmoon1331-oss/css_streamlit_2026_assignment/blob/main/CCT%20Logo.jpg?raw=true"
     st.markdown("### Logo")
     st.image(logo_url, caption="City of Cape Town", use_container_width=False)
-
-
-
-
-
-
 
 
