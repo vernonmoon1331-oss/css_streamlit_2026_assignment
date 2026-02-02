@@ -292,7 +292,7 @@ elif menu == "Publications":
     # --- Public PDFs (extend as needed) ---
     pdf_items = [
         {
-            "title": "Inclusionary Housing Overlay Zone: Overview (Technical Presentation)",
+            "title": "Incentive Overlay Zone: Overview (Technical Presentation)",
             "url": "https://resource.capetown.gov.za/documentcentre/Documents/Graphics%20and%20educational%20material/IOZ_Overview_Technical_Presentation.pdf",
         },
         {
@@ -506,6 +506,7 @@ elif menu == "Contact Information":
 
     st.markdown("### Logo")
     st.image(logo_url, caption="Spatial Targeting & Mechanisms", use_container_width=False)
+
 
 
 
