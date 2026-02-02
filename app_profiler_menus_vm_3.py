@@ -277,30 +277,6 @@ Its core focus areas include:
 Overall, the branch enables more **coordinated**, **strategic**, and **impact‑oriented** urban planning through targeted interventions and robust spatial analysis.
 """)
 
-    # Gallery options
-    with st.sidebar:
-        st.markdown("**Gallery Options**")
-        n_cols = st.slider("Columns", min_value=2, max_value=6, value=3, step=1)
-        # ✅ Default gallery path updated to your local Downloads folder
-        default_gallery = Path(r"C:\Users\vmoonsamy\Downloads\streamlit_files\Images")
-        gallery_str = st.text_input("Gallery folder", str(default_gallery))
-        # Uniform tile controls
-        st.markdown("**Uniform Tile Size (pixels)**")
-        tile_w = st.slider("Tile width", 240, 640, 360, step=20)
-        tile_h = st.slider("Tile height", 160, 640, 240, step=20)
-        bg_choice = st.selectbox("Background", ["Light gray", "White", "Black"], index=0)
-        bg_map = {"Light gray": (245, 245, 245), "White": (255, 255, 255), "Black": (0, 0, 0)}
-        bg_color = bg_map[bg_choice]
-
-    gallery_folder = Path(gallery_str).expanduser().resolve()
-    st.subheader("Branch Gallery")
-    render_image_grid(
-        gallery_folder,
-        n_cols=n_cols,
-        tile_size=(tile_w, tile_h),
-        bg_color=bg_color
-    )
-
 elif menu == "Publications":
     st.title("Publications")
     st.sidebar.header("PDF Library (Public URLs)")
@@ -525,3 +501,4 @@ elif menu == "Contact Information":
 
     st.markdown("### Logo")
     st.image(logo_url, caption="Spatial Targeting & Mechanisms", use_container_width=False)
+
