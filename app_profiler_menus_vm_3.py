@@ -497,8 +497,9 @@ elif menu == "Contact Information":
 
     # Optional local logo (only if present) — point to your new Images folder by default
      # ---- Logo (Direct Image URL) ----
-    logo_url = "https://afrifoodlinks.org/wp-content/uploads/2023/09/14212539_1111262045577380_190603409267817967_n.png"
+    logo_url = "https://github.com/vernonmoon1331-oss/css_streamlit_2026_assignment/blob/main/ST%26M%20Logo.jpeg"
 
     st.markdown("### Logo")
     st.image(logo_url, caption="Spatial Targeting & Mechanisms", use_container_width=False)
+
 
