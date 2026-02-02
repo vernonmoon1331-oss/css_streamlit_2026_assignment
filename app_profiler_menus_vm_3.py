@@ -520,14 +520,8 @@ elif menu == "Contact Information":
     st.write(f"Telephone: {telephone}")
 
     # Optional local logo (only if present) — point to your new Images folder by default
-    default_logo_path = Path(r"C:/Users/vmoonsamy/Documents/Python Course/Day 3/streamlit_files/Images/logo.jpeg.jpeg")
-    logo_str = st.sidebar.text_input("Logo path", str(default_logo_path))
-    logo_path = Path(logo_str).expanduser().resolve()
-    if logo_path.exists():
-        try:
-            img = Image.open(str(logo_path))
-            st.image(img, caption="Spatial Targeting & Mechanisms", use_container_width=False)
-        except Exception as ex:
-            st.warning(f"Could not open logo image: {ex}")
-    else:
-        st.info(f"Logo not found at: `{logo_path}`. Update the path or place the logo at this location.")
+     # ---- Logo (Direct Image URL) ----
+    logo_url = "https://afrifoodlinks.org/wp-content/uploads/2023/09/14212539_1111262045577380_190603409267817967_n.png"
+
+    st.markdown("### Logo")
+    st.image(logo_url, caption="Spatial Targeting & Mechanisms", use_container_width=False)
